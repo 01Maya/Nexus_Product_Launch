@@ -160,7 +160,12 @@ export default function Hero() {
         </motion.div>
 
         {/* Scroll Indicator */}
-        <motion.div className="mt-16" animate={{ y: [0, 10, 0] }} transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}>
+        <motion.div
+          className="mt-16 cursor-pointer"
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })}
+        >
           <p className="text-sm text-muted-foreground mb-2">Scroll to explore</p>
           <svg className="w-6 h-6 mx-auto text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
