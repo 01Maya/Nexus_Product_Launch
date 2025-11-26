@@ -89,6 +89,9 @@ export default function Navbar() {
                 className="px-5 py-1.5 rounded-full bg-accent text-accent-foreground font-semibold text-xs hover:shadow-lg hover:shadow-accent/50 transition-all whitespace-nowrap"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() =>
+                  document.querySelector("#countdown")?.scrollIntoView({ behavior: "smooth" })
+                }
               >
                 Pre-order
               </motion.button>
@@ -139,6 +142,9 @@ export default function Navbar() {
                 className="px-6 py-2 rounded-full bg-accent text-accent-foreground font-semibold text-sm hover:shadow-lg hover:shadow-accent/50 transition-all"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                  onClick={() =>
+                  document.querySelector("#countdown")?.scrollIntoView({ behavior: "smooth" })
+                }
               >
                 Pre-order
               </motion.button>
@@ -203,9 +209,11 @@ export default function Navbar() {
                   className="w-full mt-4 px-4 py-2 rounded-lg bg-accent text-accent-foreground font-semibold text-sm hover:shadow-lg hover:shadow-accent/50 transition-all"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  onClick={() => setIsMobileOpen(false)}
-                >
-                  Pre-order
+                  onClick={() =>
+                  document.querySelector("#countdown")?.scrollIntoView({ behavior: "smooth" })
+                }
+              >
+                Pre-order
                 </motion.button>
               </motion.div>
             )}
