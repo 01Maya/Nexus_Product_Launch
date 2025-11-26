@@ -10,7 +10,6 @@ const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "NEXUS - Premium Product Launch",
   description: "Experience the future with NEXUS - A revolutionary product launch experience",
-  generator: "v0.app",
 };
 
 export default function RootLayout({
