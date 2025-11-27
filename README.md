@@ -57,14 +57,14 @@ https://nexus-product-launch.vercel.app/
 ## ⚙️ Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/nexus-launch.git
+# 1. Clone the repository
+     git clone https://github.com/yourusername/nexus-launch.git
 
-# Navigate to the project folder
-cd nexus-launch
+# 2. Navigate to the project folder
+     cd nexus-launch
 
-# Install dependencies
-npm install
+# 3. Install dependencies
+     npm install
 
-# Run the development server
-npm run dev
+# 4. Run the development server
+     npm run dev
