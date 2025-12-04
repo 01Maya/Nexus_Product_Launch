@@ -43,7 +43,7 @@ Perfectly responsive across all devices, it delivers a premium user experience w
 
 ## 🔍 Preview
 
-Experience the next generation design — explore the live site to see elegant transitions and minimal layout in action.
+Experience the next generation design - Explore the live site to see elegant transitions and minimal layout in action.
 
 https://nexus-product-launch.vercel.app/
 
